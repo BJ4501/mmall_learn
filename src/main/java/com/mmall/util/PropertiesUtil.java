@@ -17,6 +17,7 @@ public class PropertiesUtil {
 
     private static Properties props;
 
+    //初始化静态变量
     static {
         String fileName = "mmall.properties";
         props = new Properties();
