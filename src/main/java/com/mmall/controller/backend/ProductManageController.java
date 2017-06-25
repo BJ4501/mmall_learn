@@ -132,7 +132,7 @@ public class ProductManageController {
             String url = PropertiesUtil.getProperty("ftp.server.http.prefix")+targetFileName;
 
             Map fileMap = Maps.newHashMap();
-            fileMap.put("url",targetFileName);
+            fileMap.put("uri",targetFileName);
             fileMap.put("url",url);
 
             return ServerResponse.createBySuccess(fileMap);
