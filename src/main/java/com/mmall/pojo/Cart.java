@@ -9,7 +9,7 @@ public class Cart {
 
     private Integer productId;
 
-    private Integer quantity;
+    private Integer quantity;//购物车中此商品的数量
 
     private Integer checked;
 
