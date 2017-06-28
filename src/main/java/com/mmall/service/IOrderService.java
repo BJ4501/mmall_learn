@@ -16,4 +16,8 @@ public interface IOrderService {
     ServerResponse queryQrderPayStatus(Integer userId,Long orderNo);
 
     ServerResponse createOrder(Integer userId, Integer shippingId);
+
+    ServerResponse<String> cancel(Integer userId,Long orderNo);
+
+    ServerResponse getOrderCartProduct(Integer userId);
 }
